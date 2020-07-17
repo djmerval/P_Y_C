@@ -93,7 +93,7 @@ header{
   rgba(211,135,20, .6),
   rgba(29,241,171, .6),
   rgba(7,109,150, .45)
-  ), url(img/fondo.jpg);
+  ), url(img/fondo1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -168,6 +168,7 @@ nav .enlaces a:hover{
 
 .textos>h2{font-size: 30px; font-weight: 300;}
 
+
 /* Main */
 
 .contenedor{
@@ -212,7 +213,7 @@ nav .enlaces a:hover{
   width: 31%;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
   overflow: hidden;
-  height:400px;
+  height:225px;
 }
 
 .people{
@@ -314,6 +315,7 @@ nav .enlaces a:hover{
 .textos-work h4{
   line-height: 30px;
   font-weight: 300;
+
 }
 
 /* Footer */
