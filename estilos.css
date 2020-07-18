@@ -90,9 +90,9 @@ header{
   width: 100%;
   height:600px;
   background: linear-gradient(to bottom,
-  rgba(150,193,240, .6),
-  rgba(54,142,235, .6),
-  rgba(100,170,230, .45)
+  rgba(48,97,232, .10),
+  rgba(87,122,218, .11),
+  rgba(168,182,218, .40)
   ), url(img/fondo1.jpg);
   background-attachment: fixed;
   background-position: center;
