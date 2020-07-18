@@ -182,14 +182,14 @@ nav .enlaces a:hover{
 
 .contenedor h3{
   font-size: var(--titulos);
-  color: var(--color1);
+  color: #4169E1; /* var(--color1);*/
   margin-bottom: var(--espacios);
 }
 
 .contenedor p{
   font-size: var(--subtitulos);
   font-weight: 300;
-  color: var(--color1);
+  color: #4169E1;
 }
 
 .after::after{
@@ -269,7 +269,7 @@ nav .enlaces a:hover{
   padding: 6px 12px;
   border: 1px solid var(--color1);
   list-style: none;
-  color: var(--color1);
+  color: #4169E1;
 }
 
 .botones-work li:hover{
