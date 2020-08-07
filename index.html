@@ -5,16 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>P_Y_C</title>
+    <title>P_&_C</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="modal.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
 </head>
+
 
 <body class="hidden">
     <div class="centrado" id="onload">
-        <div class="lds-facebook"><div></div><div></div><div></div></div>
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
     <header>
         <nav id="nav" class="nav1">
@@ -46,17 +52,23 @@
             <div class="card">
                 <div class="content-card">
                     <div class="people">
-                       <!-- <img src="img/people1.jpg" alt=""> -->
-                       <h4 style = "font-family:perpetua;" align=justify >La misión de P&C SECURITY CIA. LTDA. es proporcionar y garantizar seguridad privada integral a nuestros clientes con talento humano profesional de alto nivel y calificado, empleando tecnología innovadora y adaptada a las necesidades y exigencias, permitiendo generar tranquilidad, satisfacción y confianza absoluta.</h4>
+                        <!-- <img src="img/people1.jpg" alt=""> -->
+                        <h4 style="font-family:perpetua;" align=justify>La misión de P&C SECURITY CIA. LTDA. es
+                            proporcionar y garantizar seguridad privada integral a nuestros clientes con talento humano
+                            profesional de alto nivel y calificado, empleando tecnología innovadora y adaptada a las
+                            necesidades y exigencias, permitiendo generar tranquilidad, satisfacción y confianza
+                            absoluta.</h4>
                     </div>
                     <div class="texto-team">
-                         
                         <p>MISIÓN</p>
                     </div>
                 </div>
                 <div class="content-card">
                     <div class="people">
-                        <h4 style = "font-family:perpetua;" align=justify >La visión de P&C SECURITY CIA. LTDA. es posicionarse como la empresa líder en servicios de seguridad privada, expandiendo su presencia a nivel nacional y garantizando un excelente desempeño en operaciones de seguridad con eficiencia, disciplina y honestidad a completa satisfacción de sus clientes.</h4>
+                        <h4 style="font-family:perpetua;" align=justify>La visión de P&C SECURITY CIA. LTDA. es
+                            posicionarse como la empresa líder en servicios de seguridad privada, expandiendo su
+                            presencia a nivel nacional y garantizando un excelente desempeño en operaciones de seguridad
+                            con eficiencia, disciplina y honestidad a completa satisfacción de sus clientes.</h4>
                     </div>
                     <div class="texto-team">
                         <p>VISIÓN</p>
@@ -64,7 +76,10 @@
                 </div>
                 <div class="content-card">
                     <div class="people">
-                        <h4 style = "font-family:perpetua;"align=justify >P&C SECURITY CIA. LTDA. impulsa la creación, el desarrollo y la adaptación del conocimiento en beneficio de nuestro Talento Humano, definiendo medidas encaminadas a la satisfacción de nuestros clientes, promoviendo la mejora en la empresa por el continuo proceso de innovación en seguridad integral.</h4>
+                        <h4 style="font-family:perpetua;" align=justify>P&C SECURITY CIA. LTDA. impulsa la creación, el
+                            desarrollo y la adaptación del conocimiento en beneficio de nuestro Talento Humano,
+                            definiendo medidas encaminadas a la satisfacción de nuestros clientes, promoviendo la mejora
+                            en la empresa por el continuo proceso de innovación en seguridad integral.</h4>
                     </div>
                     <div class="texto-team">
                         <p>POLÍTICA DE CALIDAD</p>
@@ -110,12 +125,40 @@
             <div class="galeria-work">
                 <div class="cont-work programacion">
                     <div class="img-work">
-                        
-                   <img src="img/infidelidad.JPG" alt="">
-
+                        <img src="img/infidelidad.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Infidelidad</h4>
+                        <button type="button" class="open-modal" data-open="modal1">
+                            <h4>Infidelidad</h4>
+                        </button>
+                        <div class="modal" id="modal1">
+                            <div class="modal-dialog">
+                                <section class="modal-content">
+                                    <header class="modal-header">
+                                        <img src="img/crimenes.JPG" alt="">
+                                        <button class="close-modal" aria-label="close modal" data-close>
+                                            ✕
+                                        </button>
+                                    </header>
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>Nullam vitae enim vel diam elementum tincidunt a eget metus. Curabitur finibus
+                                        vestibulum rutrum. Vestibulum semper tellus vitae tortor condimentum porta. Sed
+                                        id ex arcu. Vestibulum eleifend tortor non purus porta dapibus</p>
+                                    <p>111111111111111111111111111111111111111111111111111ecause occasionally
+                                        circumstances occur in which toil and pain can procure him some great pleasure.
+                                        To take a trivial example, which of us ever undertakes laborious physical
+                                        exercise, except to obtain some advantage from it? But who has any right to find
+                                        fault with a man who chooses to enjoy a pleasure that has no annoying
+                                        consequences, or one who avoids a pain that produces no resultant pleasure</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the first modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work programacion">
@@ -123,7 +166,31 @@
                         <img src="img/crimenes.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Crímenes cibernéticos</h4>
+                        <button type="button" class="open-modal" data-open="modal2">
+                            <h4>Crímenes cibernéticos</h4>
+                        </button>
+                        <div class="modal" id="modal2">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>22222222222222222222222222222222222222222222rum. Vestibulum semper tellus vitae
+                                        tortor condimentum porta. Sed id ex arcu. Vestibulum eleifend tortor non purus
+                                        porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work programacion">
@@ -131,7 +198,31 @@
                         <img src="img/casos.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Casos Abiertos</h4>
+                        <button type="button" class="open-modal" data-open="modal3">
+                            <h4>Casos Abiertos</h4>
+                        </button>
+                        <div class="modal" id="modal3">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>33333333333333333333333333333333333333333333333333333333333Vestibulum semper
+                                        tellus vitae tortor condimentum porta. Sed id ex arcu. Vestibulum eleifend
+                                        tortor non purus porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work diseño">
@@ -139,7 +230,30 @@
                         <img src="img/barrios.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Barrios y condominios</h4>
+                        <button type="button" class="open-modal" data-open="modal4">
+                            <h4>Barrios y condominios</h4>
+                        </button>
+                        <div class="modal" id="modal4">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>444444444444444444444444444444444444or condimentum porta. Sed id ex arcu.
+                                        Vestibulum eleifend tortor non purus porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work diseño">
@@ -147,7 +261,31 @@
                         <img src="img/empresas.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Empresas y centros comerciales</h4>
+                        <button type="button" class="open-modal" data-open="modal5">
+                            <h4>Empresas y centros comerciales</h4>
+                        </button>
+                        <div class="modal" id="modal5">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>5555555555555555555555555555555555555555555555555555lum semper tellus vitae
+                                        tortor condimentum porta. Sed id ex arcu. Vestibulum eleifend tortor non purus
+                                        porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work diseño">
@@ -155,7 +293,30 @@
                         <img src="img/instrucciones.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Instituciones educativas</h4>
+                        <button type="button" class="open-modal" data-open="modal6">
+                            <h4>Instituciones educativas</h4>
+                        </button>
+                        <div class="modal" id="modal6">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>6666666666666666666666666666666666666semper tellus vitae tortor condimentum
+                                        porta. Sed id ex arcu. Vestibulum eleifend tortor non purus porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work marketing">
@@ -163,7 +324,30 @@
                         <img src="img/barrios1.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Barrios organizados</h4>
+                        <button type="button" class="open-modal" data-open="modal7">
+                            <h4>Barrios organizados</h4>
+                        </button>
+                        <div class="modal" id="modal7">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>777777777777777777777777777777m semper tellus vitae tortor condimentum porta. Sed
+                                        id ex arcu. Vestibulum eleifend tortor non purus porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work marketing">
@@ -171,7 +355,32 @@
                         <img src="img/seguridad.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Seguridad y desastres naturales</h4>
+                        <button type="button" class="open-modal" data-open="modal8">
+                            <h4>Seguridad y desastres naturales</h4>
+                        </button>
+
+                        <div class="modal" id="modal8">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>8888888888888888888888888888888888888888888lum rutrum. Vestibulum semper tellus
+                                        vitae tortor condimentum porta. Sed id ex arcu. Vestibulum eleifend tortor non
+                                        purus porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="cont-work marketing">
@@ -179,7 +388,30 @@
                         <img src="img/capacitacion1.JPG" alt="">
                     </div>
                     <div class="textos-work">
-                        <h4>Capacitación integral en seguridad</h4>
+                        <button type="button" class="open-modal" data-open="modal9">
+                            <h4>Capacitación integral en seguridad</h4>
+                        </button>
+                        <div class="modal" id="modal9">
+                            <div class="modal-dialog">
+                                <header class="modal-header">
+                                    <img src="img/crimenes.JPG" alt="">
+                                    <button class="close-modal" aria-label="close modal" data-close>
+                                        ✕
+                                    </button>
+                                </header>
+                                <section class="modal-content">
+                                    <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus
+                                        reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex
+                                        nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                                    <p>9999999999999999999999999999999imentum porta. Sed id ex arcu. Vestibulum eleifend
+                                        tortor non purus porta dapibus</p>
+                                </section>
+                                <footer class="modal-footer">
+                                    The footer of the second modal
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,28 +419,28 @@
     </main>
     <footer id="contacto">
         <div class="footer contenedor">
-            <div class="marca-logo">
+            <!-- <div class="marca-logo">
                 <img src="img/logo2.png" alt="">
             </div>
-             <!-- <div class="iconos">
+            <div class="iconos">
                 <a href="https://chat.whatsapp.com/LNgGQC9VOlGHFCvtDE02Lu" target="_blank"> <i class="fab fa-whatsapp" ></i> </a>
                 <a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook-square" ></i> </a>
                 <a href="https://www.instagram.com/?hl=es-la" target="_blank"> <i class="fab fa-instagram" ></i> </a>
                 <a  href="https://goo.gl/maps/CCeMyqbKB97iAzyW9" target="_blank"> <i class="fab fa-periscope" ></i> </a>
             </div> -->
-            
             <div class="iconos">
-                <a href="https://chat.whatsapp.com/LNgGQC9VOlGHFCvtDE02Lu" target="_blank"> <img src="img/whatsapp.png" ></a>
-                <a href="https://www.facebook.com" target="_blank"> <img src="img/facebook.png" > </a>
-                <a href="https://www.instagram.com/?hl=es-la" target="_blank"> <img src="img/instagram.png" > </a>
-                <a  href="https://goo.gl/maps/CCeMyqbKB97iAzyW9" target="_blank"> <img src="img/mapa.png" > </a>
+                <a href="https://chat.whatsapp.com/LNgGQC9VOlGHFCvtDE02Lu" target="_blank"> <img src="img/whatsapp.png"></a>
+                <a href="https://www.facebook.com" target="_blank"> <img src="img/facebook.png"> </a>
+                <a href="https://www.instagram.com/?hl=es-la" target="_blank"> <img src="img/instagram.png"> </a>
+                <a href="https://goo.gl/maps/CCeMyqbKB97iAzyW9" target="_blank"> <img src="img/mapa.png"> </a>
             </div>
             <p>Seguridad que da confianza</p>
         </div>
-
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
     <script src="js/filtro.js"></script>
+    <script src="js/modal.js"></script>
 </body>
+
 </html>

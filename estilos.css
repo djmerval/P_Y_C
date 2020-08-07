@@ -90,9 +90,9 @@ header{
   width: 100%;
   height:600px;
   background: linear-gradient(to bottom,
-  rgba(48,97,232, .10),
-  rgba(87,122,218, .11),
-  rgba(168,182,218, .40)
+  rgba(2, 71, 231, 0.36),
+  rgba(187, 4, 4, 0.11),
+  rgba(0, 0, 0, 0.4)
   ), url(img/fondo1.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -296,18 +296,18 @@ nav .enlaces a:hover{
 .cont-work{
   width: 31%;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
-  height:300px;
+  height:350px;
   overflow: hidden;
   margin-bottom: var(--espacios-contenido);
 }
 
 .img-work{
-  height: 90%;
+  height: 90.5%;
   width: 100%;
 }
 
 .img-work img{
-  height: 100%;
+  height: 99%;
   width: 100%;
   object-fit: cover;
 }
@@ -420,130 +420,4 @@ footer p{
   .iconos{
     margin: auto;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  #show-modal{
-    text-align: center;
-    background: #bc651a;
-    padding: 15px 15px;
-    color: white;
-    font-weight: 500;
-    font-size: 1.5em;
-    border-radius: 3.5px;
-    text-decoration: none;
-  
-  transition: all 0.15s linear-gradient;
-  }
-  
-  #show-modal:hover{
-    cursor: pointer;
-    background: #bc9d1a;
-
-  }
-
-  .modal{
-    position: fixed;
-    top: -100vh;
-    left: 0;
-    z-index: 99999999;
-    background: rgba(0,0,0,0.75);
-    width: 100vw;
-    height: 100vh;
-    opacity: 0;
-    transition: opacity 0.35s ease;
-
-  }
-
-  .modal .content-modal{
-    width: 100%;
-    max-width: 500px;
-    position: fixed;
-    left: 50%;
-    top: -100vh;
-    transition: top 0.35s ease;
-    margin-left: -250px;
-    background: white;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    border-radius: 2px;
-    z-index: 9999999;
-
-  }
-
-.modal h2{
-  padding: 0.5em;
-  text-align:center;
-  color: #444444;
-  margin: 0; 
-
-}
-
-.modal article{
-  height: 300px;
-  background: #bc651a;
-
-}
-
-.close-modal{
-  color: #e74c3c;
-  position: absolute;
-  top: 0.2em;
-  right: 0.375em;
-  margin: 0;
-  padding: 5px;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-decoration: none;
-
-}
-
-.modal a:hover{
-
-  color: #c0392b;
-
-}
-
-.modal:target{
-  opacity: 1;
-  top: 0;
-
-
-}
-.modal .btn-close-modal{
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99999991;
-
-
-}
-.modal:target .content-modal{
-  top: 50px;
-  transition: top 0.35s ease;
-
-}
-
-@media(max-width: 796px){
-  .modal .content-modal{
-    width: 90%;
-    max-width: none;
-    left: 5%;
-    margin-left: 0;
-
-  }
-}
-
-
 }
